@@ -11,7 +11,7 @@ public class Main {
 		int pj1=0;
 		int pj2=0;
 		Scanner sn = new Scanner(System.in);
-		
+		System.out.println("FORKEADO PAPITO");
 		ArrayList<Personaje> personajes = new ArrayList<Personaje>();
 		Main.inicializarPersonajes(personajes);
 		

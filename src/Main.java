@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
 /**
- * Jugar Street Fighter II
+ * Jugar Street Fighter III
  * @param args
  */
 	public static void main(String[] args) {

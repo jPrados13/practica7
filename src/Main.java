@@ -11,12 +11,21 @@ public class Main {
 		int pj1=0;
 		int pj2=0;
 		Scanner sn = new Scanner(System.in);
-		
+		System.out.println("FORKEADO PAPITO");
 		ArrayList<Personaje> personajes = new ArrayList<Personaje>();
 		Main.inicializarPersonajes(personajes);
 		
 		//Elegir el primer Personaje
-		 
+		 System.out.println("                                                              ad88 88             88                                       \r\n" + 
+		 		"            ,d                                       ,d      d8\"   \"\"             88           ,d                          \r\n" + 
+		 		"            88                                       88      88                   88           88                          \r\n" + 
+		 		",adPPYba, MM88MMM 8b,dPPYba,  ,adPPYba,  ,adPPYba, MM88MMM MM88MMM 88  ,adPPYb,d8 88,dPPYba, MM88MMM ,adPPYba, 8b,dPPYba,  \r\n" + 
+		 		"I8[    \"\"   88    88P'   \"Y8 a8P_____88 a8P_____88   88      88    88 a8\"    `Y88 88P'    \"8a  88   a8P_____88 88P'   \"Y8  \r\n" + 
+		 		" `\"Y8ba,    88    88         8PP\"\"\"\"\"\"\" 8PP\"\"\"\"\"\"\"   88      88    88 8b       88 88       88  88   8PP\"\"\"\"\"\"\" 88          \r\n" + 
+		 		"aa    ]8I   88,   88         \"8b,   ,aa \"8b,   ,aa   88,     88    88 \"8a,   ,d88 88       88  88,  \"8b,   ,aa 88          \r\n" + 
+		 		"`\"YbbdP\"'   \"Y888 88          `\"Ybbd8\"'  `\"Ybbd8\"'   \"Y888   88    88  `\"YbbdP\"Y8 88       88  \"Y888 `\"Ybbd8\"' 88          \r\n" + 
+		 		"                                                                       aa,    ,88                                          \r\n" + 
+		 		"                                                                        \"Y8bbdP\"                           ");
 		System.out.println("Elija el primer personaje:");
 		for (int i = 0; i < personajes.size(); i++) {
 			System.out.println(i+1+".- " + personajes.get(i).getNombre());
